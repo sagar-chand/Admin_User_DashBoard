@@ -1,6 +1,8 @@
 # Admin & User Dashboard
 
 A responsive **Admin & User Dashboard** built using **React.js**. This project includes separate dashboards for administrators and users with a clean UI and role-based navigation.
+## Live Demo
+ https://sagar-chand.github.io/Admin_User_DashBoard/
 
 ## 🚀 Features
 
