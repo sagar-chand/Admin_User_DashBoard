@@ -1,0 +1,98 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "admin_id": "sagar_admin",
+      "password": "sagar@15"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "user_id": "david_nit",
+      "user_name": "david",
+      "password": "david1",
+      "email": "david@outlook.com"
+    },
+    {
+      "id": "c566",
+      "user_id": "sam123",
+      "user_name": "samson",
+      "password": "sam@11",
+      "email": "sam@outlook.com"
+    },
+    {
+      "id": "b350",
+      "user_id": "aa11",
+      "user_name": "",
+      "password": "aaa",
+      "email": "",
+      "emial": "123@gmail.com"
+    },
+    {
+      "id": "e4c6",
+      "user_id": "aa11",
+      "user_name": "",
+      "password": "aaa",
+      "email": "",
+      "emial": "123@gmail.com"
+    },
+    {
+      "id": "ea16",
+      "user_id": "aa11",
+      "user_name": "",
+      "password": "aaa",
+      "email": "",
+      "emial": "123@gmail.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "categories_id": 1,
+      "categories_name": "Java"
+    },
+    {
+      "id": "1",
+      "categories_id": 2,
+      "categories_name": "React"
+    },
+    {
+      "id": "1",
+      "categories_id": 3,
+      "categories_name": "AWS"
+    }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "title": "java  API By Mr.Ravishankar",
+      "description": "Java Stream API Tutorials",
+      "url": "https://www.youtube.com/embed/U2PiMIS75jU",
+      "like": 200,
+      "dislike": 0,
+      "views": 500,
+      "comments": "Thank you for new videos",
+      "categories_id": 1
+    },
+    {
+      "id": "123e",
+      "title": "React 19 FAQ's",
+      "description": "React JS Interview Tips",
+      "url": "https://www.youtube.com/embed/NJVQA10RPuA",
+      "like": 300,
+      "dislike": 0,
+      "views": 400,
+      "comments": "Please upload more videos"
+    },
+    {
+      "id": "7e13",
+      "title": "",
+      "description": "",
+      "url": "",
+      "likes": 0,
+      "dislikes": 0,
+      "category_id": 0
+    }
+  ]
+}
