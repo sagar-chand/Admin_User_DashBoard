@@ -1,16 +1,123 @@
-# React + Vite
+# Admin & User Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Admin & User Dashboard** built using **React.js**. This project includes separate dashboards for administrators and users with a clean UI and role-based navigation.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 👨‍💼 Admin Dashboard
+- Admin Login
+- Dashboard Overview
+- Manage Users
+- Add Users
+- Edit User Details
+- Delete Users
+- Search Users
+- View User List
+- Responsive Design
 
-## React Compiler
+### 👤 User Dashboard
+- User Login
+- Dashboard Home
+- User Profile
+- Edit Profile
+- View Personal Information
+- Responsive Layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- React Router DOM
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Bootstrap
+- JSON Server (Fake REST API)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```
+Admin-User-Dashboard/
+│── public/
+│── src/
+│   ├── Components/
+│   ├── Pages/
+│   ├── Services/
+│   ├── App.js
+│   ├── index.js
+│── db.json
+│── package.json
+│── README.md
+```
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Admin-User-Dashboard.git
+```
+
+Go to the project folder:
+
+```bash
+cd Admin-User-Dashboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+## ▶️ Run the Project
+
+Start the React application:
+
+```bash
+npm start
+```
+
+Start JSON Server:
+
+```bash
+npx json-server --watch db.json --port 3001
+```
+
+Open your browser:
+
+```
+http://localhost:3000
+```
+
+JSON Server API:
+
+```
+http://localhost:3001
+```
+
+```
+images/
+├── admin-dashboard.png
+├── user-dashboard.png
+├── login-page.png
+```
+
+## 🔮 Future Improvements
+
+- Authentication with JWT
+- Protected Routes
+- Dark Mode
+- Pagination
+- Role-Based Authorization
+- Dashboard Analytics
+- API Integration
+
+## 👨‍💻 Author
+
+**Sagar Chand Nayak**
+
+GitHub: https://github.com/sagar-chand
+
+---
+
+⭐ If you like this project, don't forget to give it a Star!
